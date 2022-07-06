@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    let tiengviet = prompt()
+    let ketqua=[]
+    for (let i=0; i < tiengviet.length;i ++){
+        if (tiengviet[i].toLowerCase() == tiengviet[i]){
+            ketqua.push(tiengviet[i].toLocaleUpperCase());
+        }else{
+            ketqua.push(tiengviet[i].toLowerCase());
+        }
+    }
+    document.write(ketqua.join())
+
+
+
+</script>
+</body>
+</html>
